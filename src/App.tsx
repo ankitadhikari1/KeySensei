@@ -551,7 +551,6 @@ const App = () => {
     setCodeScale(1)
   }
 
-  const abortSession = () => {}
 const handleResizeMouseDown = (event: ReactMouseEvent<HTMLDivElement>) => {
     if (!codePaneRef.current) {
       return
